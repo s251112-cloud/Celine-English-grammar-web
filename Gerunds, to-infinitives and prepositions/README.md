@@ -28,7 +28,7 @@ Prepositions can be tricky because they often depend entirely on the phrase you 
 | :--- | :--- | :--- |
 | **In** | For enclosed spaces, months, years, or cities | I live **in** Hong Kong. / The project started **in** 2026. |
 | **On** | For surfaces, days of the week, or websites | I clicked the link **on** GitHub. / Meet me **on** Monday. |
-| **At** | For specific times or precise locations | The class starts **at** 9:00 AM. / He is **at** school. |
+| **At** | For specific times or precise locations | The class starts **at** 9:00 AM. / She is **at** school. |
 
 ---
 
