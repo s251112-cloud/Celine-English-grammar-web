@@ -33,7 +33,7 @@ If the sentence uses *am, is, are, was,* or *were*, repeat that exact same verb 
 
 ### B. Sentences with Auxiliary / Modal Verbs
 If the sentence contains a helping verb like *can, will, have, should,* or *must*, use that same verb in the tag.
-*   *Example 1:* Marco **can** speak English fluently, **can't he**?
+*   *Example 1:* Celine **can** speak English fluently, **can't she**?
 *   *Example 2:* We **won't** have homework over the weekend, **will we**?
 *   *Example 3:* You **have** finished your grammar code, **haven't you**?
 
