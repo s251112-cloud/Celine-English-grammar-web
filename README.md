@@ -26,9 +26,8 @@ Use the active voice when the subject performs the action. It makes your writing
 ## ⚡ Quick Grammar Check
 
 Test your knowledge! Look at the two options below and see if you can spot the right answer:
-
-*   [ ] **A)** Neither of the options look correct to me.
-*   [ ] **B)** Neither of the options looks correct to me.
+* **A)** Neither of the options look correct to me.
+* **B)** Neither of the options looks correct to me.
 
 <details>
 <summary><b>💡 Click here to reveal the answer!</b></summary>
