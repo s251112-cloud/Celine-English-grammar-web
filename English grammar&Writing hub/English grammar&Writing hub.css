@@ -1,0 +1,122 @@
+/* --- GRAMMAR HUB MODULE STYLES --- */
+
+:root {
+    /* --- THEME COLORS (PURPLE) --- */
+    --primary-purple: #6366f1;
+    --header-purple-dark: #4338ca;
+    --accent-purple-light: #f5f3ff;
+    
+    /* --- GLOBAL LAYOUT COLORS --- */
+    --bg-page: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #1e293b;
+    --border-gray: #e2e8f0;
+}
+
+/* --- GLOBAL BODY & CONTAINER SETTINGS --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- PURPLE HEADER BANNER --- */
+header.theme-purple {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(135deg, var(--header-purple-dark), var(--primary-purple));
+    color: white;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+h1 { 
+    margin: 0; 
+    font-size: 2.5rem; 
+}
+
+p.subtitle { 
+    margin: 10px 0 0 0; 
+    opacity: 0.9; 
+    font-size: 1.1rem; 
+}
+
+/* --- CARDS & CONTENT DISPLAY --- */
+.card {
+    background: var(--bg-card);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-gray);
+}
+
+/* Main title colors matching our template */
+.theme-purple-page h2 { 
+    color: var(--primary-purple); 
+    border-bottom: 2px solid var(--accent-purple-light);
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.theme-purple-page h3 { 
+    color: var(--header-purple-dark); 
+    margin-top: 20px; 
+}
+
+/* --- SUBJUNCTIVE MOOD DATA TABLE --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid var(--border-gray);
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f9fafb;
+    color: #334155;
+    font-weight: 600;
+}
+
+/* --- EXAMPLE BOXES & UTILITIES --- */
+.example-box {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Accent identifier for this specific grammar page */
+.theme-purple-page .example-box { 
+    border-left: 4px solid var(--primary-purple); 
+}
+
+.highlight {
+    color: var(--primary-purple);
+    font-weight: bold;
+}
+
+.correct { color: #16a34a; font-weight: bold; }
+.incorrect { color: #dc2626; font-weight: bold; text-decoration: line-through; }
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #64748b;
+    font-size: 0.9rem;
+}
