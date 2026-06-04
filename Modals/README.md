@@ -16,7 +16,7 @@ Before jumping into the types of modal verbs, there are three absolute grammar r
     *   ✅ **Correct:** You should **study** tonight.
 3.  **No "Don't / Doesn't" in Negatives:** To make a modal sentence negative, simply add **not** directly to the modal verb.
     *   ❌ *Incorrect:* You don't must paste that code.
-    *   ✅ **Correct:** You **must not** paste that code.
+    *   ✅ **Correct:** You **must not** / **mustn't** paste that code.
 
 ---
 
@@ -28,7 +28,7 @@ We use different modal verbs depending on what message we want to send:
 *   **Can:** Used for present or general ability.
     *   *Example:* Celine **can** build beautiful websites on GitHub.
 *   **Could:** Used for past ability.
-    *   *Example:* Yesterday, I **could not** find where the loading glitch was.
+    *   *Example:* Yesterday, I **couldn't** find where the loading glitch was.
 
 ### B. Permission & Possibility (Asking to do something / Guessing)
 *   **Can / May / Could:** Used to ask for or give permission. (*May* and *Could* are more polite than *Can*).
