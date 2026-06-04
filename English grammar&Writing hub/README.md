@@ -8,10 +8,10 @@ Welcome to our shared grammar repository! This project serves as a clear referen
 
 Choosing between **that** and **which** depends on whether the information is essential to the sentence.
 
-### 1. Defining Clauses (Use **"That"**)
-Use **that** when the information is **absolutely necessary** to understand the sentence. If you remove it, the sentence loses its core meaning. *Do not use a comma before that.*
+### 1. Defining Clauses (Use **"That"** or **"Which"**)
+You can use either **which** or **that** in restrictive clauses. It is generally optional in British, Australian and Global English. However in American English, this rule is **strictly required** by most style guides including AP and Chicago. I mean this is called "prescriptive grammar" which defines how a language **should** be used.
 
-*   **Example:** The laptop **that** has the Wordle game belongs to Celine. 
+*   **Example:** The laptop **that**/**which** has the Wordle game belongs to Celine. 
     *(We need this info to know exactly which laptop we are talking about!)*
 
 ### 2. Non-Defining Clauses (Use **"Which"**)
