@@ -48,5 +48,5 @@ Below is a reference guide for verb forms. A slash (`/`) is used if a verb has m
 ---
 
 ### 🚀 Contributors
-*   **Celine0921** (tye main creator of the project)
+*   **Celine0921** (the main creator of the project)
 *   **MarcoT0425** (the collab of the project)
