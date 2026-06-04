@@ -1,6 +1,6 @@
 # English Grammar & Writing Hub ✍️
 
-Welcome to our shared grammar repository! This project serves as a clear reference guide for tricky English grammar rules, mechanics, and style choices.
+Welcome to my shared grammar repository! This project serves as a clear reference guide for tricky English grammar rules, mechanics, and style choices.
 
 ---
 
