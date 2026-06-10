@@ -1,0 +1,178 @@
+/* --- GRAMMAR COMPONENT STYLING BLUEPRINT --- */
+
+:root {
+    /* --- MASTER PURPLE DESIGN PALETTE --- */
+    --primary-purple: #6d28d9;
+    --header-purple-dark: #4c1d95;
+    --accent-purple-light: #f3e8ff;
+    
+    /* --- STRUCTURAL INDICATORS --- */
+    --color-plural: #475569;
+    --color-singular: #b45309;
+    --bg-highlight-column: #fef08a1a;
+    
+    /* --- CORE STRUCTURE --- */
+    --bg-page: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #1e293b;
+    --border-gray: #e2e8f0;
+}
+
+/* --- DOCUMENT LAYOUT --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- BANNER HEADER --- */
+header.theme-purple {
+    text-align: center;
+    padding: 40px 15px;
+    background: linear-gradient(135deg, var(--header-purple-dark), var(--primary-purple));
+    color: white;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+h1 { margin: 0; font-size: 2.3rem; }
+p.subtitle { margin: 10px 0 0 0; opacity: 0.9; font-size: 1.1rem; }
+
+/* --- CARD DISPLAY --- */
+.card {
+    background: var(--bg-card);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-gray);
+}
+
+h2 { 
+    color: var(--header-purple-dark); 
+    border-bottom: 2px solid var(--accent-purple-light);
+    margin-top: 0;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* --- FLEXBOX SPLIT FORMULA BLOCKS --- */
+.split-layout {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.formula-container {
+    flex: 1;
+    background-color: #fafafa;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid var(--border-gray);
+    position: relative;
+}
+
+.highlighted-column {
+    background-color: #fffbeb;
+    border-color: #fef08a;
+}
+
+.formula-badge {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+}
+.badge-plural { background-color: var(--color-plural); }
+.badge-singular { background-color: #d97706; }
+
+.syntax-box {
+    font-family: monospace;
+    font-size: 1.1rem;
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* --- PROGRESSIVE SHIFT TABLES --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid var(--border-gray);
+    padding: 12px 14px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+th { background-color: #f8fafc; color: #475569; }
+
+.syntax-suffix {
+    background-color: var(--accent-purple-light);
+    color: var(--header-purple-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.table-example {
+    color: #475569;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+/* --- LIST CONTEXTS --- */
+.usage-block-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.usage-block-list li {
+    padding: 14px 0;
+    border-bottom: 1px dashed var(--border-gray);
+}
+
+.usage-block-list li:last-child {
+    border-bottom: none;
+}
+
+.context-example {
+    margin: 4px 0 0 0;
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+.example-text {
+    font-size: 0.95rem;
+    margin: 8px 0;
+}
+
+/* --- COLLABORATOR FOOTER --- */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    color: #64748b;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border-gray);
+}
